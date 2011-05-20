@@ -1,5 +1,6 @@
 #!/bin/sh
-
+mkdir cache
+chmod 0777 cache
 cd vendor
 php silex.phar update
 cd ..
