@@ -1,0 +1,15 @@
+{% extends "layout/layout.html.twig" %}
+{% block content %}
+<p>
+In order to test the printinfo() method we test that the string returned by the getinfo() method, 
+used to get the information by printinfo(), is matching a text file with the expected output.
+</p>
+<p>
+For the studentId validation we tests the setStudentId() method  (implemented using a regular expression to check for input validity) 
+with valid and invalid data and check that we get an Exception for the invalid ones.
+</p>
+<h2>Student Test Class</h2>
+<pre><code>{{ studentTestClass }}</code></pre>
+<h2>Teacher Test Class</h2>
+<pre><code>{{ teacherTestClass }}</code></pre>
+{% endblock %}

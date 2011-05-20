@@ -1,0 +1,5 @@
+<student>
+id: 9912345US
+name: John Doe
+gender: M
+birthday: 2/2/1990

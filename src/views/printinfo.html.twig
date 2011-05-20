@@ -1,0 +1,23 @@
+{% extends "layout/layout.html.twig" %}
+{% block content %}
+<p>
+Here is the outputs of printinfo() on a Student and a Teacher. 
+</p>
+<p>
+This is using <a href="http://silex-project.org/" target="_none">Silex</a>, a PHP micro-framework.
+</p>
+<h2>Output of printinfo()</h2>
+<pre>{{ teacherInfo }}</pre>
+<pre>{{ studentInfo }}</pre>
+<hr>
+<p>
+Here is the controller of the application:
+</p>
+<h2>The Controller</h2>
+<pre>{{ appCode }}</pre>
+<hr>
+<p>
+Here is the source of the application on github:
+</p>
+<a href="https://github.com/cridoret/challenge" target="_none"><h2>Application Source</h2></a>
+{% endblock %}

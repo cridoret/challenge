@@ -1,0 +1,17 @@
+body {
+    margin:0 auto; /* for the rest */
+    width:900px;
+}
+pre {
+ white-space: pre-wrap;
+ white-space: -moz-pre-wrap;
+ white-space: -o-pre-wrap;
+ background: #faf8f0;
+ overflow: auto;
+ width: 900px;
+}
+#content code {
+ display: block;
+ padding: 0.5em 1em;
+ border: 1px solid #bebab0;
+}

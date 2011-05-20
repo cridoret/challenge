@@ -1,0 +1,5 @@
+<teacher>
+name: Mr. Robert Smith
+birthday: 3/4/1970
+classes:
+    Physics 101
