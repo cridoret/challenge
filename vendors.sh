@@ -1,5 +1,7 @@
 #!/bin/sh
 
-curl http://silex-project.org/get/silex.phar --create-dirs -o vendor/silex.phar
+cd vendor
+php silex.phar update
+cd ..
 git submodule init
 git submodule update
