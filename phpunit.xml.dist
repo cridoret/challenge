@@ -13,8 +13,8 @@
   >
 
   <testsuites>
-    <testsuite name="My Test Suite">
-      <directory>./tests/</directory>
+    <testsuite name="Challenge Test Suite">
+      <directory>./tests/Challenge/</directory>
     </testsuite>
   </testsuites>
 

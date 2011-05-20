@@ -7,7 +7,9 @@ $loader = new UniversalClassLoader();
 $loader->registerPrefixes(array(
     'Twig_' => __DIR__ . '/../vendor/Twig/lib',
 ));
-
+$loader->registerNamespaces(array(
+    'Challenge' => __DIR__,
+));
 $loader->register();
 
 $twigLoader = new Twig_Loader_Filesystem(__DIR__ . '/views');
