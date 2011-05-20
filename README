@@ -1,0 +1,2 @@
+Run vendors script to get vendors lib and create cache directory if needed
+# ./vendors
